@@ -12,7 +12,7 @@ import java.util.Optional;
 @Mapper
 public interface ItemMapper {
 
-    void save(Item item);
+    Item save(Item item);
 
     void update(@Param("id") Long id, @Param("updateParam") ItemUpdateDto updateDto);
 
