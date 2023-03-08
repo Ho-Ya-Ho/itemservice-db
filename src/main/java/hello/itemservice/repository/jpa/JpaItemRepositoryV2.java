@@ -54,4 +54,3 @@ public class JpaItemRepositoryV2 implements ItemRepository {
         }
     }
 }
-`
